@@ -15,6 +15,19 @@ Write a program in the language of your choice where:
 
 > Try to keep the procedure as short as possible.
 
+```python:
+import random
+rep=0
+for i in range (1, 101, 1):
+	rand_int=random.randint(1,100)
+	print (i, rand_int)
+	rep+=1
+	if rand_int % 7==0:
+		print ('Lucky Number!')
+	if rep== 5: 
+		print ('---')
+		rep=0
+```
 ---
 
 ## Exercise 2
